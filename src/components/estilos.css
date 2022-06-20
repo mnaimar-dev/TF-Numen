@@ -1,0 +1,31 @@
+.contenedor{
+    background-color: white;
+    height: 500%;
+}
+
+.titulo{
+    font-size: 300%
+}
+
+span{
+    color: orange;
+}
+
+.card{
+    border: 1px solid black;
+    height: 300px;
+    margin-top: 180px;
+    width: 180px;
+    float: left;
+    background-color: white;
+    margin-left: 32px;
+    border-radius: 10px; 
+}
+
+.right-container{
+    margin-left: 100px;
+    padding-left: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
