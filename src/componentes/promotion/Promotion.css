@@ -1,0 +1,28 @@
+.promotion {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #355DA5;
+}
+
+.promotion_text {
+    color: white;
+    text-align: center;
+    margin: 0rem;
+    font-size: 1.05rem;
+    font-weight: bolder;
+}
+
+.promotion_button {
+    border: none;
+    color: white;
+    background-color: #355DA5;
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+
+.promotion_button:hover {
+    color: #000000;
+    font-weight: bolder;
+}
+

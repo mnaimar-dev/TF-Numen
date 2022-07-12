@@ -1,0 +1,100 @@
+.cartDiv1 {
+    margin-bottom: 62vh;
+    background-color: black;
+}
+
+.carrito_carta {
+    background-color: black;
+    width: 60vw;
+    margin: auto;
+    /* max-height: 15rem; */
+}
+
+.carrito_rowCard {
+    border: solid grey;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .carrito_titulo {
+        width: 50rem;
+        margin-top: 3.5rem;
+    }
+
+    .carrito_precio {
+        margin-top: 3.5rem;
+    }
+
+    .carrito_divImagen {
+        max-height: 10rem;
+    }
+
+    .carrito_carta {
+        max-height: 14rem;
+    }
+
+    .imagenCarrito {
+        height: 100%;
+    }
+
+    .carrito_body {
+        width: 40vw;
+        display: flex;
+    } 
+
+    .resumenCarritoMobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    
+
+    .imagenCarrito {
+        height: 50%;
+        margin-bottom: -5rem;
+    }
+
+    .carrito_titulo {
+        position: relative;
+        top: 0rem;
+        /* left: rem; */
+        margin-left: -10%;
+        /* border: solid blue; */
+    }
+
+    .carrito_body {
+        width: 100%;
+        justify-content: space-between;
+        padding: 3rem;
+        /* border: solid red; */
+    } 
+
+    .carrito_precio {
+        position: relative;
+        top: 0rem;
+        text-align: center;
+    }
+
+    .botonEliminarProducto {
+        position: relative;
+        right: 0.5rem;
+        bottom: 2rem;
+    }
+
+    .totalAPagar {
+        margin-right: 2rem;
+    }
+
+    .carrito_rowCard {
+        display: none;
+    }
+}
+
+.divCarritoVacio {
+    padding-bottom: 1rem;
+}

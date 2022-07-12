@@ -1,0 +1,63 @@
+
+.nav_link {
+    text-transform: uppercase;
+    color: #FFFF !important;
+    font-size: 1.4rem;
+}
+
+.nav_link:hover {
+    color: #4486FF !important;
+}
+
+.toogler_nav {
+    margin-left: -7rem;
+}
+
+@media (max-width: 1199px) {
+    .toogler_nav {
+        background-color: #D83232;
+        border-radius: 0.5rem;
+        padding: 0.1rem;
+        position: relative;
+        z-index: 100;
+        right: 1rem;
+        top: 7%;
+    }
+}
+
+@media  (max-width: 1199px) {
+    .toogler_nav { 
+        position: absolute; /* si lo ponemos en relative, se queda dentro del header y se expande */
+        /* right: -3rem; */
+    }
+}
+
+
+@media (min-width: 1360px) {
+    .search {
+        position: absolute;
+        color: #FFFF;
+        right: -45rem;
+    }
+}
+
+@media (min-width: 1360px) {
+    .cart {
+        position: absolute;
+        color: #FFFF;
+        right: -50rem;
+    }
+}
+
+.cart_contador {
+    vertical-align: super;
+    font-size: 1.2rem;
+    margin-left: 0.2rem;
+    color: #FFFF;
+}
+
+@media (min-width: 1199px) {
+    .cart_contador {
+        color: red;
+    }
+}

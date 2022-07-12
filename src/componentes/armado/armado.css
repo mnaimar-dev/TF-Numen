@@ -4,6 +4,7 @@
     color: rgb(254, 253, 253);
     height: 90vh;
     padding: 100px 0 100px 0;
+    margin-top: rem;
   }
   
   .armado-desc {
@@ -134,7 +135,7 @@
   }
   .armadoVideo {
     height: 70vh;
-    margin-left: 200px;
+    margin-left: 100px;
     border-radius: 10px;
 
 }

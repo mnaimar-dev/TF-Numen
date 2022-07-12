@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .footer{
-    width: 100%;
+    width: 100vw;
     background-color: black;
     position: fixed;
     z-index: -2;
@@ -42,8 +42,7 @@
     margin-bottom: 10px;
 }
 .footer .grupo-1 .box a .img2{
-    height: 50px;
-
+    width: 10rem;
 }
 
 .footer .grupo-1 .red-social a{

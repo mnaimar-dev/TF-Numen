@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    padding: 1rem 5rem 0 0; 
+    align-items: center;
+    background-color: black;
+}
+
+.header_logo {
+    margin-left: -5rem;
+    margin-right: 2rem;
+    margin-bottom: 1.6rem;
+    width: 30%;
+    height: 30%;
+}

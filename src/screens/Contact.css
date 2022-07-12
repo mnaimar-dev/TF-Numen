@@ -1,0 +1,22 @@
+.divFormulario {
+    background-color: black;
+}
+
+.formulario {
+    margin-bottom: 22vh;
+    display: flex;
+    justify-content: center;
+    /* border: solid red; */
+}
+
+@media (min-width: 960px) {
+    .formulario {
+        margin-bottom: 64vh;
+    }
+}
+
+@media (min-width: 990px) {
+    .formulario_width {
+        width: 550px;
+    }
+}

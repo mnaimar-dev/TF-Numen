@@ -1,0 +1,28 @@
+.main-div {
+    margin-bottom: 22vh;
+}
+
+@media (min-width: 960px) {
+    .main-div {
+        margin-bottom: 65vh;
+    }
+}
+
+.tituloProductsList {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 220%;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .tituloProductsList {
+      font-size: 300%;
+    }
+  }
+
+.precio {
+    margin-left: 10%;
+}

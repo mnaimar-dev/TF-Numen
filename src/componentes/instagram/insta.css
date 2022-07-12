@@ -16,14 +16,14 @@ h2 a{
     color: rgb(239, 241, 243);
     text-decoration: none;
 }
-@keyframes animate{
+/* @keyframes animate{
     from{
         text-shadow: 0 0 50px #fff, 0 0 10px #fff, 0 0 20px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red;
     }
     to {
         text-shadow: 0 0 20px white, 0 0 30px #f880f2, 0 0 40px #f880f2, 0 0 50px #f880f2, 0 0 60px #f880f2, 0 0 70px #f880f2, 0 0 80 #f880f2;
     }
-}
+} */
 @media only screen and (max-width: 960px){
     .conteiner-insta{
     
