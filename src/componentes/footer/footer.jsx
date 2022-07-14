@@ -15,13 +15,13 @@ const Footer = () => {
             </figure>
 
         </div>
-        <div className="box">
-          <h2>CONSULTAS</h2>
+        <div className="box text-start">
+          <h2 className="ms-5">CONSULTAS</h2>
           <p>hello@darkhorse.com</p>
           <p>+54 11 5555-9999</p>
           <p>Lunes A Viernes de 9hs a 19hs</p>
           <a href="https://www.afip.gob.ar/landing/default.asp" target="_blank">
-            <img className="img2" src="https://latolderiaonline.com.ar/wp-content/themes/latolderia/source/img/data-fiscal.jpg" alt="QR"/>
+            <img className="img2 ms-5" src="https://latolderiaonline.com.ar/wp-content/themes/latolderia/source/img/data-fiscal.jpg" alt="QR"/>
 
           </a>
        
@@ -40,7 +40,6 @@ const Footer = () => {
       </div>
       <div className="grupo-2">
         <small>&copy;2022 <b>DARK HORSE</b> - Todos Los Derechos Reservados.</small>
-
       </div>
       
     </footer>

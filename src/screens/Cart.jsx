@@ -4,13 +4,13 @@ const Cart = ({ carrito, total, handleEliminar, finalizarCompra, handleEliminarP
   return (
     <div className='cartDiv1'>
         { carrito.length > 0 ?  
-        <>
+        <> 
             <div className="tituloProductsList">
                 Resumen <span>de Compra</span>
             </div>
             <div className='row container-fluid' style={{ width: '100vw', height: '70%', margin: 'auto' }}>
                 {
-                    carrito.map((producto, index ) => {
+                    carrito.map((producto) => {
                         return(
                             <>
                                 <div key={ producto.id }  className='carrito_rowCard col-lg-12 col-md-12 col-sm-12 card1 p-2 mb-3 mt-2'>
@@ -36,7 +36,7 @@ const Cart = ({ carrito, total, handleEliminar, finalizarCompra, handleEliminarP
                                     </div>
                                 </div>
 
-                                <div key={ Math.random() }  className=' resumenCarritoMobile col-lg-4 col-md-4 col-sm-12 card1 p-2 mb-3 mt-2'>
+                                <div key={ Math.random() }  className='resumenCarritoMobile col-lg-4 col-md-4 col-sm-12 card1 p-2 mb-3 mt-2'>
                                     <div className="card cardModifier" style={{ widht: '5rem' }}>
                                         <img 
                                         src= { producto.imagen } 

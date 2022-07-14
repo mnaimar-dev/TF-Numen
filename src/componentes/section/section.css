@@ -1,52 +1,22 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 .section-body{
-    width: 100%;
-    height: 50vh;
     background-color: black;
-}
-.section-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
-.section-box1,.section-box2,.section-box3{
-    width: 400px;
-    height: 220px;
-    margin: 15px;
-    padding: 5px;
-    color: whitesmoke;
-    text-align: center;
-    transition: .3s ease-in-out;
 
-}
-.section-box1:hover,
-.section-box2:hover,
-.section-box3:hover{
-    background-color: rgba(209, 7, 7, 0.2);
-}
-.fab{
-    margin: 1.2rem 0 .3rem 0;
-    
-}
-h4{
-    letter-spacing: 2px;
-    margin: 0 0 .6rem 0;
-}
-.section-box1 p,
-.section-box2 p,
-.section-box3 p{
-    line-height: 1.6;
-    padding: 0 10px;
-}
-@media only screen and (max-width: 960px){
-    .section-body{
-        height: 120vh;
+@media (max-width: 768px) {
+    .section-body {
+        flex-direction: column;
     }
-    
+}
 
+.card-body:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    color: red;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }

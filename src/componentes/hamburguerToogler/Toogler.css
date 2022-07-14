@@ -28,7 +28,7 @@
 @media  (max-width: 1199px) {
     .toogler_nav { 
         position: absolute; /* si lo ponemos en relative, se queda dentro del header y se expande */
-        /* right: -3rem; */
+        top: 2.4rem;
     }
 }
 

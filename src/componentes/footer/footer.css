@@ -66,9 +66,15 @@
     text-align: center;
     color: white;
 }
-.footer .grupo-2 small{
-    font-size: 15px;
+
+
+@media (min-width: 768px) {
+    .footer .grupo-2 small{
+        font-size: 15px;
+    }
 }
+
+
 @media only screen and (max-width: 960px){
     .footer .grupo-1{
         width: 90%;
@@ -81,3 +87,13 @@
         margin-left: -10px;
     }
 }
+
+@media (max-width: 768px) {
+    .grupo-2{
+        font-size: 0.9rem;
+    }
+}
+/* 
+.footerConsultas {
+
+} */

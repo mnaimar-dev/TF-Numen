@@ -3,15 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './Toogler.css'
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
-  NavLink,
-  Link 
+  NavLink
 } from "react-router-dom";
 
 export default function Toogler({ contador }) {
-
-  
 
   return (
     

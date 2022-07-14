@@ -5,13 +5,26 @@
     background-color: #355DA5;
 }
 
-.promotion_text {
-    color: white;
-    text-align: center;
-    margin: 0rem;
-    font-size: 1.05rem;
-    font-weight: bolder;
+    .promotion_text {
+        color: white;
+        text-align: center;
+        margin: 0rem;
+        font-weight: bolder;
+    }
+    
+    @media (min-width: 768px) {
+        .promotion_text {
+            font-size: 1.05rem;
+        }
+    }
+
+
+@media (max-width: 768px) {
+    .promotion_text {
+        font-size: 0.8rem;
+    }
 }
+
 
 .promotion_button {
     border: none;

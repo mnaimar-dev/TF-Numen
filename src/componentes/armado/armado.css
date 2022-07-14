@@ -5,6 +5,7 @@
     height: 90vh;
     padding: 100px 0 100px 0;
     margin-top: rem;
+    background-color: black;
   }
   
   .armado-desc {
@@ -133,6 +134,7 @@
       width: 100%;
     }
   }
+
   .armadoVideo {
     height: 70vh;
     margin-left: 100px;
@@ -140,3 +142,28 @@
 
 }
   
+@media (max-width: 768px) {
+    .armado-container {
+      padding-top: 3rem;
+      margin-top: -2rem;
+    }
+}
+
+
+.textoArmado {
+  margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+  .spanArmado {
+    font-size: 1rem;
+  }
+
+  .armadoVideo {
+    margin-left: 41%;
+  }
+}
+
+.button {
+  margin-left: 10%;
+}
